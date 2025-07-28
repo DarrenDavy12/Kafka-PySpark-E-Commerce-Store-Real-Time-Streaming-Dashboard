@@ -2,9 +2,10 @@
 
 This project demonstrates an end-to-end real-time streaming analytics pipeline, designed to process high-velocity data and display insights on a live dashboard. It's a practical example of handling real-time data for use cases like IoT, finance, and web analytics.
 
+
 ## 🎯 Business Case
 
-Imagine an e-commerce platform that needs to monitor user clickstream events as they happen. The goal is to gain real-time insights into user engagement, identify popular products, and quickly detect any anomalies (e.g., a sudden spike in errors or unusual activity). This dashboard provides that live monitoring capability.
+We have a plain e-commerce platform that needs to monitor user clickstream events as they happen. The goal is to gain real-time insights into user engagement, identify popular products, and quickly detect any anomalies (e.g., a sudden spike in errors or unusual activity). This dashboard provides that live monitoring capability.
 
 ## 🏗️ Architecture & Tech Stack
 
@@ -15,9 +16,9 @@ The project is built with the following components:
 * **Serving Layer (Conceptual):** While not fully implemented in this demo for simplicity, in a production environment, aggregated metrics from Spark would be written to a data warehouse like Amazon Redshift for persistent storage or a low-latency cache like Redis for dashboard lookups.
 * **Visualization:** A simple, live-updating dashboard built with Streamlit queries the processed data to display the latest metrics.
 
-## 💡 Key Learnings
+## 💡 Key Areas
 
-This project will help you understand and demonstrate:
+This project will demonstrate:
 
 * Real-time data ingestion using Apache Kafka.
 * Distributed stream processing with Apache Spark Structured Streaming.
@@ -198,4 +199,4 @@ This command will open a new tab in your web browser (usually `http://localhost:
 * **Error Detection:** Enhance the Spark processing to include logic for anomaly detection (e.g., sudden spikes in 'error' events).
 * **More Metrics:** Add more sophisticated aggregations in Spark, such as conversion rates, user paths, or session durations.
 * **Advanced Visualization:** Use more advanced charting libraries within Streamlit or explore dedicated BI tools like Grafana.
-* **Deployment:** Consider deploying this pipeline on cloud platforms (AWS, GCP, Azure) using managed services for Kafka (e.g., Amazon MSK), Spark (e.g., Amazon EMR, Databricks), and your chosen serving layer.
+* **Deployment:** Considering deploying this pipeline on AWS using managed services for Kafka, including Amazon MSK, Spark, Amazon EMR, Databricks)
