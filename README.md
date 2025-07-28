@@ -63,12 +63,16 @@ Open **three separate terminal windows** for Kafka operations.
     ```
     Keep this terminal open.
 
+  ![image](https://github.com/user-attachments/assets/3f906e6d-0019-4c12-a97f-8f52e90176ce)
+
 * **Terminal 2: Start Kafka Broker**
     Open a new terminal, navigate to your Kafka directory, and run:
     ```bash
     bin/kafka-server-start.sh config/server.properties
     ```
     Keep this terminal open.
+
+  
 
 * **Terminal 3: Create Kafka Topic**
     Open another new terminal, navigate to your Kafka directory, and create the topic:
