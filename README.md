@@ -16,6 +16,7 @@ The project is built with the following components:
 * **Serving Layer (Conceptual):** While not fully implemented in this demo for simplicity, in a production environment, aggregated metrics from Spark would be written to a data warehouse like Amazon Redshift for persistent storage or a low-latency cache like Redis for dashboard lookups.
 * **Visualization:** A simple, live-updating dashboard built with Streamlit queries the processed data to display the latest metrics.
 
+
 ## 💡 Key Areas
 
 This project will demonstrate:
@@ -24,6 +25,7 @@ This project will demonstrate:
 * Distributed stream processing with Apache Spark Structured Streaming.
 * Stateful aggregations (like windowing) on streaming data.
 * Connecting a data pipeline to a live visualization layer.
+
 
 ## 🛠️ Prerequisites
 
