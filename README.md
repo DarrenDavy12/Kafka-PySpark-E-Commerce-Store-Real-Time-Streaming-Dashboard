@@ -104,7 +104,7 @@ pip install kafka-python streamlit pandas
 
 <br>
 
-#### Overview of terminals all fours terminal's made:
+#### Overview of terminals all four terminal's made:
 
 ![image](https://github.com/user-attachments/assets/fcd483e2-0521-4e63-8e92-51364a3bbdee)
 
@@ -112,7 +112,7 @@ pip install kafka-python streamlit pandas
 <br> 
 
 
-#### Step 5 - Create your Python files in one folder (e.g., C:\real_time_dashboard):
+#### Step 5 - Create Python files in one folder (e.g., C:\real_time_dashboard):
 
 
 - kafka_producer.py
