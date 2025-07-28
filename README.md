@@ -26,7 +26,7 @@ This project will help you understand and demonstrate:
 
 ## 🛠️ Prerequisites
 
-Before you begin, ensure you have the following installed on your system (especially if you're on a MacBook M1):
+Before you begin, ensure you have the following installed on your system:
 
 * **Python 3.x:**
     * Check with `python3 --version`.
@@ -47,6 +47,19 @@ Before you begin, ensure you have the following installed on your system (especi
         export PYSPARK_PYTHON=python3 # Ensure PySpark uses Python 3
         ```
         Remember to `source` your profile file after making changes.
+
+
+<br>
+
+### Install Python Libraries 🐍 
+
+In a new terminal, install the required Python libraries:
+
+```bash
+pip install kafka-python pyspark streamlit
+```
+
+<br>
 
 ## ⚙️ Setup Instructions
 
@@ -72,6 +85,7 @@ Open **three separate terminal windows** for Kafka operations.
     ```
     Keep this terminal open.
 
+  ![image](https://github.com/user-attachments/assets/8d845c66-42fd-4f81-98f1-1e1600075bc5)
   
 
 * **Terminal 3: Create Kafka Topic**
@@ -81,17 +95,17 @@ Open **three separate terminal windows** for Kafka operations.
     ```
     You should see a confirmation message.
 
-### 2. Install Python Libraries 🐍
+  ![image](https://github.com/user-attachments/assets/57c86873-8633-4682-9230-bc73cc4f7512)
 
-In a new terminal, install the required Python libraries:
 
-```bash
-pip install kafka-python pyspark streamlit
-```
+<br>
 
-### 3. Prepare Spark Kafka Connector JARs 🔗
+### 2. Prepare Spark Kafka Connector JARs 🔗
 
 The PySpark consumer script will automatically download the necessary Kafka connector JARs when you submit the job using the `--packages` argument. You don't need to manually download them beforehand.
+
+<br>
+
 
 ## 📂 Project Files
 
@@ -99,9 +113,14 @@ The PySpark consumer script will automatically download the necessary Kafka conn
 * `spark_consumer.py`: PySpark Structured Streaming application to consume, process, and aggregate data from Kafka.
 * `dashboard_app.py`: Streamlit application to visualize the real-time analytics.
 
+<br>
+
+
 ## ▶️ Running the Project
 
 Open **three separate terminal windows** for running the project components.
+
+<br>
 
 ### 1. Run the Kafka Producer 📤
 
@@ -129,6 +148,9 @@ In **Terminal 3**, navigate to the directory where you saved `dashboard_app.py` 
 streamlit run dashboard_app.py
 ```
 This command will open a new tab in your web browser (usually `http://localhost:8501`) displaying the real-time analytics dashboard. The dashboard currently uses simulated data, but in a real setup, it would fetch data from your serving layer (Redshift/Redis).
+
+<br>
+
 
 ## 🚀 Next Steps & Enhancements
 
