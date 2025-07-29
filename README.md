@@ -148,6 +148,7 @@ Keep this running.
 
 
 ### 2. Run the PySpark Structured Streaming Consumer 📈
+<br>
 
 In **Terminal 2**, navigate to the directory where you saved `spark_consumer.py` and run the Spark job. Make sure to include the `--packages` argument so Spark can connect to Kafka:
 
