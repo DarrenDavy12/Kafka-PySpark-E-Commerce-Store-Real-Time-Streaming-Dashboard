@@ -187,19 +187,10 @@ This command will open a new tab in your web browser (usually `http://localhost:
 <br>
 
 
-   ![image](https://github.com/user-attachments/assets/9bbc6f6f-1864-4f3e-8bef-8dc41bb0c9df)
+   ![image](https://github.com/user-attachments/assets/a0070811-2a3d-4a53-8c99-aff906ceed4d)
 
 
 
 <br>
 
 
-## 🚀 Next Steps & Enhancements
-
-* **Integrate a Serving Layer:**
-    * **Amazon Redshift:** Modify `spark_consumer.py` to write the aggregated data to a Redshift table using Spark's JDBC sink. Then, update `dashboard_app.py` to query Redshift directly.
-    * **Redis:** Implement a custom sink in `spark_consumer.py` to write to Redis for ultra-low latency access. Update `dashboard_app.py` to fetch data from Redis.
-* **Error Detection:** Enhance the Spark processing to include logic for anomaly detection (e.g., sudden spikes in 'error' events).
-* **More Metrics:** Add more sophisticated aggregations in Spark, such as conversion rates, user paths, or session durations.
-* **Advanced Visualization:** Use more advanced charting libraries within Streamlit or explore dedicated BI tools like Grafana.
-* **Deployment:** Considering deploying this pipeline on AWS using managed services for Kafka, including Amazon MSK, Spark, Amazon EMR, Databricks)
