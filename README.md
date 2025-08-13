@@ -1,7 +1,5 @@
 # 🚀 E-commerce Real-Time Streaming Analytics Dashboard
 
-This project demonstrates an end-to-end real-time streaming analytics pipeline, designed to process high-velocity data and display insights on a live dashboard. It's a practical example of handling real-time data for use cases like IoT, finance, and web analytics.
-
 
 ## 🎯 Business Case
 
