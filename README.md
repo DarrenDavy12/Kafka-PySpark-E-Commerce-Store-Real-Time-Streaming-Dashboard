@@ -87,7 +87,7 @@ Open **three separate terminal windows** for Kafka operations.
     ```
     Keep this terminal open.
 
-  ![image](https://github.com/user-attachments/assets/8501a08e-3890-461e-8ce4-f8c74f2c6948)
+  ![image](https://github.com/user-attachments/assets/cfd72bfd-c011-4d1f-8333-ada0eb9ec595)
   
 
 * **Terminal 3: Create Kafka Topic**
@@ -97,7 +97,8 @@ Open **three separate terminal windows** for Kafka operations.
     ```
     You should see a confirmation message.
 
-  ![image](https://github.com/user-attachments/assets/0264a867-a6ba-4b1a-89d1-92e9c8d101cc)
+ ![image](https://github.com/user-attachments/assets/f49b0ce1-e1e6-4c36-9d15-a0e477f3e54d)
+
 
 
 <br>
@@ -138,7 +139,7 @@ This script will start generating and sending simulated user click events to you
 
 Keep this running.
 
-   ![image](https://github.com/user-attachments/assets/87ea50d4-02e7-4f8a-aa0c-3e6ba2e4f596)
+   ![image](https://github.com/user-attachments/assets/a62df2a2-54e6-4cdd-9299-6f44003382ce)
 
 
 <br>
@@ -155,7 +156,7 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.2.0,org.apa
 ```
 Spark will start consuming messages from Kafka, processing them, and printing the aggregated results like page views per minute and user engagement to this terminal.
 
-   ![image](https://github.com/user-attachments/assets/ddd15cb0-0605-48ee-b8a4-04ca6242381c)
+  ![image](https://github.com/user-attachments/assets/752a34bb-03bb-489d-9170-94c04f2ddccf)
 
 
 <br>
@@ -173,13 +174,13 @@ This command will open a new tab in your web browser (usually `http://localhost:
 
 <br>
 
-   ![image](https://github.com/user-attachments/assets/7f486a9b-5133-4b35-8d88-6a49f3ea9ed4)
+   ![image](https://github.com/user-attachments/assets/13d3dbf2-b931-4bba-af59-c863c42cc15f)
 
 
 <br>
 
 
-   ![image](https://github.com/user-attachments/assets/9b2296d4-e283-470b-947b-84ef0740a46f)
+   
 
 
 <br>
