@@ -77,7 +77,7 @@ Open **three separate terminal windows** for Kafka operations.
     ```
     Keep this terminal open.
 
-  ![image](https://github.com/user-attachments/assets/5db24da5-341c-4de7-84e2-d8fa8e803775)
+  ![image](https://github.com/user-attachments/assets/a32401ff-357a-4ccd-9375-d36f23dcbc2e)
   
 
 * **Terminal 2: Start Kafka Broker**
